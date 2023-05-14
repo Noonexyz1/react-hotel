@@ -3,6 +3,7 @@
 
   /*FLEXBOX*/
   display: flex;
+  flex-direction: column;
 
 }
 
