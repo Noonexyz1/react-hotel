@@ -138,6 +138,7 @@ function App() {
           <p>Direccion</p>
         </div>
       </footer>
+      
     </div>
   );
 }
