@@ -1,0 +1,4 @@
+.caracteristicas-cuartos-flex{
+    display: flex;
+    flex-direction: row;
+}

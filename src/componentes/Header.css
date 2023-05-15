@@ -1,3 +1,18 @@
-.fondo-rojo{
+.fondo-rojo-flex{
     background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.nav-flex{
+    background: blueviolet;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo-bk{
+    background: yellow;
+}
+

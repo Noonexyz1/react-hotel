@@ -4,18 +4,24 @@
 
 import "../App.css";
 import "./Header.css";
+import Enlace from "./Enlace";
 
 function Header({logo}) {
   return (
-    <header className="App-header fondo-rojo">
-      <nav>
-        <img src={logo} className="App-logo" alt="logo" />
+    <header className="fondo-rojo-flex">
+      
+      <img src={logo} className="App-logo logo-bk" alt="logo" />
+      
+      
+      <nav className="nav-flex">
 
-        <a href="·">Inicio</a>
-        <a href="·">Cuartos</a>
-        <a href="·">Ubicacion</a>
-        <a href="·">Contactos</a>
-        <a href="·">Mas...</a>
+
+        <Enlace enlace="#" texto="Inicio"></Enlace>
+        <Enlace enlace="#" texto="Cuartos"></Enlace>
+        <Enlace enlace="#" texto="Ubicacion"></Enlace>
+        <Enlace enlace="#" texto="Contactos"></Enlace>
+        <Enlace enlace="#" texto="Mas..."></Enlace>
+        
 
         <a
           className="App-link"
@@ -25,6 +31,7 @@ function Header({logo}) {
         >
           Learn React
         </a>
+      
       </nav>
     </header>
   );

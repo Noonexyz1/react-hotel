@@ -2,30 +2,16 @@
 //importarlo como si nada.
 import "../App.css";
 import "./Footer.css";
+import Contacto from "./Contacto";
 
-function Footer({logo}){
-    return(
-        <footer>
-        <div>
-          <img src={logo} className="App-logo" alt="logo" />
-
-          <p>Numero de telefono:</p>
-        </div>
-
-        <div>
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>Email:</p>
-        </div>
-
-        <div>
-          <img src={logo} className="App-logo" alt="logo" />
-
-          <p>Direccion</p>
-        </div>
-      </footer>
-      
-    );
+function Footer({ logo }) {
+  return (
+    <footer className="footer-flex">
+      <Contacto logo={logo} texto="Numero de telefono"></Contacto>
+      <Contacto logo={logo} texto="Correo Electronico"></Contacto>
+      <Contacto logo={logo} texto="Direccion del hotel"></Contacto>
+    </footer>
+  );
 }
 
 export default Footer;
-
